@@ -1,0 +1,24 @@
+﻿{
+  "namespace": "VSO-Time-Ticker",
+  "version": "0.0.1",
+  "name": "Time Ticker",
+  "description": "A simple extension for Visual Studio Online of a Time Ticker",
+  "provider": {
+    "name": "Marcus Fernandez"
+  },
+  "baseUri": "https://localhost:44300",
+  "icon": "https://localhost:44300/images/some-icon.png",
+  "contributions": {
+    "vss.web#hubs": [
+      {
+        "id": "time",
+        "name": "Time",
+        "groupId": "home",
+        "order": 22,
+        "uri": "index.html",
+        "usesSdk": true,
+        "fullPage": false
+      }
+    ]
+  }
+}
